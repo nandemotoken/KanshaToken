@@ -11,7 +11,7 @@ await torus.init({
   buildEnv: "production", // default: production
   enableLogging: true, // default: false
   network: {
-    host: "", // default: mainnet
+    host: "a", // default: mainnet
     chainId: 100, // default: 1
     networkName: "xdai stable network" // default: Main Ethereum Network
   },
