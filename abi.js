@@ -1,4 +1,4 @@
-const abi = [
+const ABI = [
 	{
 		"inputs": [],
 		"payable": false,
