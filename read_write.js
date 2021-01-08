@@ -13,7 +13,7 @@ await torus.init({
   network: {
     host: "xdai", // default: mainnet
     chainId: 100, // default: 1
-    networkName: "Matic Mainnet" // default: Main Ethereum Network
+    networkName: "xDai Stable Network" // default: Main Ethereum Network
   },
   showTorusButton: true // default: true
 });
