@@ -43,7 +43,7 @@ function myButtonClicked() {
 		console.log(resolve[0])
 		console.log(document.getElementById('id100').value)
 		console.log(document.getElementById('tid').value)
-		mycontract.methods.safeTransferFrom( resolve[0] , document.getElementById('id100').value , document.getElementById('tid').value ).send({ from: resolve[0] });
+		mycontract.methods.transferFrom( resolve[0] , document.getElementById('id100').value , document.getElementById('tid').value ).send({ from: resolve[0] });
 		console.log("resolve[0]_is_your_Address:" + resolve[0]);
 	});
 }
