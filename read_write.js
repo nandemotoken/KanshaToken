@@ -11,8 +11,8 @@ await torus.init({
   buildEnv: "production", // default: production
   enableLogging: true, // default: false
   network: {
-    host: "https://rpc.xdaichain.com/", // default: mainnet
-    chainId: 100, // default: 1
+    host: "mainet", // default: mainnet
+    chainId: 1, // default: 1
     networkName: "xDai Stable Network" // default: Main Ethereum Network
   },
   showTorusButton: true // default: true
