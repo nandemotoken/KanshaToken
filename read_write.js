@@ -1,5 +1,7 @@
 let web3tr;
 
+const Address = "0xE2931876A8cD0bc76A7114CFaA8232eF983532a3";
+
 async function newTorus() {
 
 const torus = new Torus({
