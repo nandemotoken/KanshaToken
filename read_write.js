@@ -1,6 +1,6 @@
-let web3tr;
-
 const Address = "0xE2931876A8cD0bc76A7114CFaA8232eF983532a3";
+
+let web3tr;
 
 async function newTorus() {
 
@@ -11,15 +11,14 @@ await torus.init({
   buildEnv: "production", // default: production
   enableLogging: true, // default: false
   network: {
-    host: "mainet", // default: mainnet
-    chainId: 1, // default: 1
+    host: "xdai", // default: mainnet
+    chainId: 100, // default: 1
     networkName: "xDai Stable Network" // default: Main Ethereum Network
   },
   showTorusButton: true // default: true
 });
 await torus.login(); // await torus.ethereum.enable()
 web3tr = new Web3(torus.provider);
-  
 }
 
 newTorus();
